@@ -166,12 +166,12 @@ docker build -t rogueguard .
 **2. Run baseline inference test**
 This will automatically parse your `.env` file and execute the 3 predefined tasks:
 ```bash
-docker run --env-file .env -it rogueguard python inference.py
+docker run --env-file .env -it rogueguard1 python inference.py
 ```
 
 **3. Run the local Env Server (for manual testing/UI)**
 ```bash
-docker run -p 7860:7860 --env-file .env rogueguard
+docker run -p 7860:7860 --env-file .env rogueguard1
 # Verify at http://localhost:7860/health
 ```
 

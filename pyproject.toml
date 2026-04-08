@@ -9,11 +9,11 @@ description = "The first RL environment that trains AI agents to stop themselves
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
-    "fastapi==0.110.0",
-    "uvicorn==0.27.1",
-    "pydantic==2.6.4",
-    "openai==1.14.0",
-    "httpx==0.26.0",
+    "fastapi>=0.110.0",
+    "uvicorn>=0.27.1",
+    "pydantic>=2.7.2",
+    "openai>=1.14.0",
+    "httpx>=0.26.0",
     "openenv-core>=0.2.3",
     "python-dotenv>=1.0.1"
 ]
